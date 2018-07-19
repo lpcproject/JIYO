@@ -1,6 +1,8 @@
 # LightPayCoin
 Shell script to install a [LightPayCoin Masternode](https://www.lightpaycoin.org/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.
 
+It usually takes 24-32 hours from setting up a new masternode to receiving your first LPC.
+
 ***
 ## Installation:
 ```
