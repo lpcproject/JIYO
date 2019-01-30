@@ -4,7 +4,7 @@ CONFIG_FILE='lightpaycoin.conf'
 CONFIGFOLDER='/root/.lightpaycoin'
 COIN_DAEMON='/usr/local/bin/lightpaycoind'
 COIN_CLI='/usr/local/bin/lightpaycoin-cli'
-COIN_REPO='https://github.com/lrmproject/LightPayCoin/releases/download/v1.0.1.0/lightpaycoin-1.0.1-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/lpcproject/LightPayCoin/releases/download/v1.0.1.0/lightpaycoin-1.0.1-x86_64-linux-gnu.tar.gz'
 COIN_NAME='LightPayCoin'
 COIN_PORT=17273
 
