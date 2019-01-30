@@ -2,11 +2,19 @@
 Shell script to install a [LightPayCoin Masternode](https://www.lightpaycoin.org/) on a Linux server running Ubuntu 14.04, 16.04 or 18.04. Use it on your own risk.
 
 ***
-## Installation:
+## Installation (latest wallet version):
 ```
 git clone https://github.com/lpcproject/lpcinstall.git
 cd lpcinstall
 bash lpc-install.sh
+```
+***
+***
+## Update wallet to latest version:
+```
+cd ~/lpcinstall/
+git pull
+bash lpc-update.sh
 ```
 ***
 
