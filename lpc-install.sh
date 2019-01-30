@@ -4,11 +4,9 @@ CONFIG_FILE='lightpaycoin.conf'
 CONFIGFOLDER='/root/.lightpaycoin'
 COIN_DAEMON='/usr/local/bin/lightpaycoind'
 COIN_CLI='/usr/local/bin/lightpaycoin-cli'
-COIN_REPO='https://github.com/lpcproject/LightPayCoin/releases/download/v1.0.0.1/lightpaycoin-1.0.0-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/lpcproject/LightPayCoin/releases/download/v1.0.1.0/lightpaycoin-1.0.1-x86_64-linux-gnu.tar.gz'
 COIN_NAME='LightPayCoin'
 COIN_PORT=39797
-
-NODEIP=$(curl -s4 icanhazip.com)
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
@@ -257,7 +255,7 @@ fi
 function prepare_system() {
 echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
 apt-get update >/dev/null 2>&1
-apt-get install -y wget curl ufw binutils >/dev/null 2>&1
+apt-get install -y wget curl ufw binutils net-tools >/dev/null 2>&1
 }
 
 function important_information() {
@@ -305,4 +303,4 @@ clear
 checks
 prepare_system
 compile_node
-setup_node
+setup_node 
