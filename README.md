@@ -9,7 +9,6 @@ cd lpcinstall
 bash lpc-install.sh
 ```
 ***
-***
 ## Update wallet to latest version:
 ```
 cd ~/lpcinstall/
